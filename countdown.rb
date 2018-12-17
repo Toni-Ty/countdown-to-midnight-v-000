@@ -13,14 +13,14 @@ end
 # def countdown_with_sleep (number)
 #   while number == 5
 #     number -= 1
-# 
+#
 #   end
 # end
-def countdown_with_sleep(num) 
-  one_sec = sleep 1 
+def countdown_with_sleep(num)
+  one_sec = sleep 1
   while num > 0
-    puts "#{num}" 
+    puts "#{num}"
     num -= one_sec
-  end 
+  end
   return "Goodnight"
 end 
