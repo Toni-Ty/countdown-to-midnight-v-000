@@ -21,5 +21,5 @@ def countdown_with_sleep(count)
     count -=1
     sleep(1)
   end
-    
+
 end
