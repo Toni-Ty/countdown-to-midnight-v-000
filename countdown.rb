@@ -16,10 +16,10 @@ end
 #
 #   end
 # end
-def countdown_with_sleep(num)
-  one_sec = sleep 1
-  while num > 0
-    puts "#{num}"
-    num -= one_sec
+def countdown_with_sleep(count)
+  while count > 0
+    count-=1
+    sleep(1)
   end
+    puts "0 left. HAPPY NEW YEAR!"
 end
